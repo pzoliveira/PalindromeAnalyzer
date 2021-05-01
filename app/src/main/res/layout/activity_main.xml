@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image4"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="207dp"
+        android:layout_height="111dp"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:background="#FFFFFF"
+        android:text="@string/textviewWelcome"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/buttonContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewWelcome"
+        android:layout_centerHorizontal="true"
+        android:onClick="goToSettings"
+        android:text="@string/buttonContinue" />
+
+    <TextView
+        android:id="@+id/textViewMean"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="165dp"
+        android:background="#FFFFFF"
+        android:text="@string/textviewMean"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonMean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewMean"
+        android:layout_centerHorizontal="true"
+        android:onClick="showMeaning"
+        android:text="@string/buttonMean" />
+
+    <WebView
+        android:id="@+id/webViewMean"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/buttonMean"
+        android:visibility="invisible"/>
+</RelativeLayout>

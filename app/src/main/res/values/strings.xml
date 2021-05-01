@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PalindromeAnalyzer</string>
+    <string name="textviewWelcome">Welcome to Palindrome Analyzer!</string>
+    <string name="buttonContinue">CONTINUE</string>
+    <string name="textviewMean">Do you want to know what a palindrome is?</string>
+    <string name="buttonMean">Yes, I do</string>
+    <string name="textViewConfig">Settings</string>
+    <string name="textViewBackground">Choose the picture of the background:</string>
+    <string name="rdBtnCathedral">Cathedral</string>
+    <string name="rdBtnCrystal">Crystal</string>
+    <string name="rdBtnBridge">Bridge</string>
+    <string name="swtichMusic">Play and loop music</string>
+    <string name="btn2anayzer">GO TO ANALYZER</string>
+    <string name="textViewEnter">Enter below your trial:</string>
+    <string name="btnEval">EVALUATE</string>
+    <string name="txtVResultOk">Congrats, it is a palindrome!</string>
+    <string name="txtVResultNok">Unfortunately it is not a palindrome...</string>
+    <string name="textViewAgain">Would you like to try again?</string>
+</resources>

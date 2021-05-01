@@ -1,0 +1,2 @@
+rootProject.name='PalindromeAnalyzer'
+include ':app'

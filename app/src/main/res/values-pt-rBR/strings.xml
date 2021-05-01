@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PalindromeAnalyzer</string>
+    <string name="textviewWelcome">Bem vindo ao Analisador de Palíndromos!</string>
+    <string name="textViewConfig">Configurações</string>
+    <string name="textViewBackground">Escolha a figura de background:</string>
+    <string name="buttonContinue">CONTINUAR</string>
+    <string name="rdBtnCrystal">Cristal</string>
+    <string name="textviewMean">Você quer saber o que é um palíndromo?</string>
+    <string name="btn2anayzer">IR PARA O ANALISADOR</string>
+    <string name="swtichMusic">Tocar a música em loop</string>
+    <string name="buttonMean">Sim, eu quero</string>
+    <string name="rdBtnCathedral">Catedral</string>
+    <string name="rdBtnBridge">Ponte</string>
+    <string name="textViewEnter">Entre sua tentativa abaixo:</string>
+    <string name="btnEval">ANALISAR</string>
+    <string name="txtVResultOk">Parabéns, é um palíndromo!</string>
+    <string name="txtVResultNok">Infelizmente não é um palíndromo...</string>
+    <string name="textViewAgain">Você gostaria de tentar novamente?</string>
+</resources>

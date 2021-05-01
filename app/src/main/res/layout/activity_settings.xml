@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+
+    <TextView
+        android:id="@+id/textViewConfig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:text="@string/textViewConfig"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="30sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/textViewBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="@string/textViewBackground"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupPicture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3">
+
+        <RadioButton
+            android:id="@+id/rdBtnCathedral"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rdBtnCathedral"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rdBtnCrystal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rdBtnCrystal"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rdBtnBridge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rdBtnBridge"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="18sp" />
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageViewBackground"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_weight="85"
+        android:contentDescription="Image" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1"/>
+
+    <Switch
+        android:id="@+id/switchMusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="@string/swtichMusic"
+        android:textOff="OFF"
+        android:textOn="ON" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/buttonToAnalyzer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:onClick="goToAnalyzer"
+        android:text="@string/btn2anayzer" />
+
+</LinearLayout>
